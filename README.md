@@ -11,17 +11,18 @@ Stock (Class):
 - historicalIntradayExtended: This function takes the interval as parameters, using the alpha vantage API, it returns a df with extended historical intraday price data.
 - historicalDaily: This function takes the outputsize as parameters, using the alpha vantage API, it returns a df with historical daily price data.
 ### Indicators.Technical
-SMA(func.):      Given a pandas dataframe, this function calculates and adds simple moving average.
-RSI(func.):      Given a pandas dataframe, this function calculates and adds relative strength index.
-EMA(func.):      Given a pandas dataframe, this function calculates and adds expotential moving average.
-MACD(func.):     Given a pandas dataframe, this function calculates and adds Moving Average Convergence Divergence.
-BOLBANDS(func.): Given a pandas dataframe, this function calculates and adds the Boll. Bands.
+- SMA(func.):      Given a pandas dataframe, this function calculates and adds simple moving average.
+- RSI(func.):      Given a pandas dataframe, this function calculates and adds relative strength index.
+- EMA(func.):      Given a pandas dataframe, this function calculates and adds expotential moving average.
+- MACD(func.):     Given a pandas dataframe, this function calculates and adds Moving Average Convergence Divergence.
+- BOLBANDS(func.): Given a pandas dataframe, this function calculates and adds the Boll. Bands.
 
 ### Screen.Finviz
 .Quantitative:
 - MostVolatile
 - MostActive
 - TopGainers
+
 .Technical:
 - HorizontalSupportResistance
 - SidewaysHighVolume
