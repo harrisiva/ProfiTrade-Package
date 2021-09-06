@@ -1,4 +1,4 @@
-# ProfiTrade-Package 0.0.1
+# ProfiTrade-Package 0.0.3
 A proprietary open-source fintech python package with a plethora of features for building equity and cryptocurrency trading algorithms.
 ## Features
 ### Data.Price
